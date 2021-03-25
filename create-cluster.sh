@@ -15,5 +15,5 @@ demoacr1480.azurecr.io
 
 az aks update -n myAksCluster -g k8sDemoResourceGroup --attach-acr demoacr1480
 
- az acr login -n demoacr1480.azurecr.io
-
+ az acr login -n demoacr1480
+ 
