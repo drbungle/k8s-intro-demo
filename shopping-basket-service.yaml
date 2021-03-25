@@ -2,10 +2,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: aks-helloworld-one  
+  name: shopping-basket
 spec:
   type: ClusterIP
   ports:
   - port: 80
   selector:
-    app: aks-helloworld-one
+    app: shopping-basket
