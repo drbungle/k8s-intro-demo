@@ -14,9 +14,6 @@ spec:
     spec:
       containers:
       - name: shopping-basket 
-        image: demoacr1480.azurecr.io/aks-helloworld:v1
+        image: demoacr1480.azurecr.io/shopping-basket:v1
         ports:
         - containerPort: 80
-        env:
-        - name: TITLE
-          value: "Shopping basket placeholder"

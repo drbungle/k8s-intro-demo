@@ -17,5 +17,6 @@ Deploy service
 kubectl get endpoints
 
 
+sudo hwclock -s
 
-az acr import  -n demoacr1480.acr.io --source mcr.microsoft.com/azuredocs/aks-helloworld:v1 --image aks-helloworld:v1
+az acr import  -n demoacr1480.azurecr.io --source mcr.microsoft.com/azuredocs/aks-helloworld:v1 --image aks-helloworld:v1
