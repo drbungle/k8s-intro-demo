@@ -15,3 +15,7 @@ Deploy service
 ---------------
 
 kubectl get endpoints
+
+
+
+az acr import  -n demoacr1480.acr.io --source mcr.microsoft.com/azuredocs/aks-helloworld:v1 --image aks-helloworld:v1
